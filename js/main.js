@@ -28,7 +28,7 @@ App.Views.Blog = Backbone.View.extend({
   send: function(){
     // var title = this.$('.title').val();
     // var body = this.$('.body').val();
-    var title = $('#body').val();
+    var title = $('#title').val();
     var body = $('#body').val();
     var newPost = new App.Models.Blog({
       title: title,
